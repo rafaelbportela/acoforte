@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato | Aco Forte Distribuidora</title>
+  <meta name="description" content="Entre em contato com a Aco Forte Distribuidora. Solicite orcamento pelo WhatsApp, telefone ou formulario.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Contato | Aco Forte Distribuidora">
+  <meta property="og:description" content="Solicite orcamento de aco e materiais metalicos pelo WhatsApp.">
+  <meta property="og:image" content="/assets/logo-aco.jpg">
+  <link rel="canonical" href="/contato/">
+  <link rel="preconnect" href="https://cdn.tailwindcss.com"><link rel="preconnect" href="https://images.unsplash.com"><link rel="preconnect" href="https://unpkg.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>tailwind.config = {theme:{extend:{colors:{steel:{black:'#0b0d10',graphite:'#171b20',dark:'#101419',yellow:'#f5c542',amber:'#d99a16',ash:'#f3f4f6'}},fontFamily:{sans:['Inter','Arial','sans-serif'],display:['Montserrat','Inter','Arial','sans-serif']}}}};</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body class="page-contato bg-steel-ash text-steel-black antialiased">
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-steel-black/92 backdrop-blur-xl">
+    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <a href="/" class="flex items-center gap-3" aria-label="Aco Forte Distribuidora"><span class="logo-mark"><img src="/assets/logo-aco.jpg" alt="Logo Aco Forte Distribuidora"></span><span class="leading-tight"><strong class="block text-sm font-black uppercase tracking-[0.16em] text-white">Aco Forte</strong><small class="text-[0.68rem] uppercase tracking-[0.24em] text-steel-yellow">Distribuidora</small></span></a>
+      <nav class="hidden items-center gap-7 text-sm font-bold text-zinc-300 lg:flex" aria-label="Menu principal"><a href="/sobre/">Sobre</a><a href="/solucoes/">Solucoes</a><a href="/conteudo/">Conteudo</a><a href="/contato/">Contato</a></nav>
+      <a href="https://wa.me/5517981856044?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20com%20a%20A%C3%A7o%20Forte." target="_blank" rel="noopener noreferrer" class="btn btn-primary hidden lg:inline-flex"><i data-lucide="message-circle" class="h-4 w-4"></i> Solicitar orcamento</a>
+      <button id="menu-button" type="button" class="inline-flex h-11 w-11 items-center justify-center border border-white/15 text-white lg:hidden" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false"><i data-lucide="menu" class="h-5 w-5"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-steel-black px-4 py-4 lg:hidden"><div class="grid gap-3 text-sm font-bold"><a href="/sobre/" class="py-2">Sobre</a><a href="/solucoes/" class="py-2">Solucoes</a><a href="/conteudo/" class="py-2">Conteudo</a><a href="/contato/" class="py-2">Contato</a><a href="https://wa.me/5517981856044" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">Solicitar orcamento</a></div></div>
+  </header>
+  <main class="pt-20">
+    <section class="page-hero page-hero-split industrial-lines bg-steel-black">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8 lg:py-24">
+        <div class="reveal max-w-4xl self-center"><span class="section-kicker text-steel-yellow">Contato</span><h1 class="mt-4 font-display text-4xl font-black uppercase leading-tight text-white sm:text-6xl">Solicite seu orcamento com atendimento comercial direto.</h1><p class="mt-6 max-w-2xl text-lg leading-8 text-zinc-200">Envie sua lista de materiais, medidas e prazo. A equipe retorna pelo WhatsApp para orientar disponibilidade e proximos passos.</p></div>
+        <div class="reveal media-frame">
+          <img src="/images/whatsapp-smartphone.jpg" alt="Solicitacao de orcamento via WhatsApp" loading="eager" decoding="sync">
+        </div>
+      </div>
+    </section>
+    <section class="content-surface py-20 sm:py-24">
+      <div class="mx-auto grid max-w-7xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_0.9fr] lg:px-8">
+        <form class="contact-form reveal" action="https://wa.me/5517981856044" target="_blank">
+          <div class="form-heading">
+            <span class="section-kicker text-zinc-500">Formulario comercial</span>
+            <h2>Descreva sua necessidade</h2>
+            <p>Quanto mais clara for a lista, mais rapido o retorno.</p>
+          </div>
+          <div><label for="nome">Nome</label><input id="nome" name="nome" type="text" placeholder="Seu nome"></div>
+          <div><label for="empresa">Empresa</label><input id="empresa" name="empresa" type="text" placeholder="Nome da empresa"></div>
+          <div><label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" placeholder="(17) 98185-6044"></div>
+          <div><label for="mensagem">Materiais</label><textarea id="mensagem" name="text" rows="6" placeholder="Descreva chapas, tubos, perfis, medidas, quantidades e prazo."></textarea></div>
+          <button type="submit" class="btn btn-primary btn-lg"><i data-lucide="send" class="h-5 w-5"></i> Solicitar orcamento</button>
+        </form>
+        <aside class="contact-aside reveal grid gap-4">
+          <a href="https://wa.me/5517981856044" target="_blank" rel="noopener noreferrer" class="contact-row"><i data-lucide="message-circle"></i> WhatsApp comercial</a>
+          <a href="tel:+5517981856044" class="contact-row"><i data-lucide="phone"></i> +55 17 98185-6044</a>
+          <a href="mailto:comercial@acoforte.com.br" class="contact-row"><i data-lucide="mail"></i> comercial@acoforte.com.br</a>
+          <div class="info-card"><i data-lucide="clock"></i><h2>Horario</h2><p>Segunda a sexta, das 8h às 18h. Atendimento comercial sujeito à disponibilidade.</p></div>
+          <iframe title="Mapa da Aco Forte Distribuidora" src="https://www.google.com/maps?q=A%C3%A7o%20Forte%20Distribuidora&output=embed" class="h-80 w-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+      </div>
+    </section>
+    <section class="image-band image-band-reverse">
+      <img src="/images/logistica-patio.jpg" alt="Patio logistico para entrega de aco" loading="eager" decoding="sync">
+      <div>
+        <span class="section-kicker text-steel-yellow">Retirada e entrega</span>
+        <h2>Atendimento alinhado ao prazo da sua obra.</h2>
+        <p>Converse com o comercial para consultar disponibilidade, separacao de materiais, retirada e condicoes de entrega.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="border-t border-white/10 bg-steel-black py-12 text-white"><div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 text-sm sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><p>&copy; <span id="year"></span> Aco Forte Distribuidora.</p><a href="https://wa.me/5517981856044" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Solicitar orcamento</a></div></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
+

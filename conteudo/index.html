@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conteudo | Aco Forte Distribuidora</title>
+  <meta name="description" content="Conteudos da Aco Forte sobre aco para construcao, chapas, perfis, orcamento industrial e tendencias do setor.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Conteudo | Aco Forte Distribuidora">
+  <meta property="og:description" content="Artigos para orientar compradores de aco, ferragens e materiais metalicos.">
+  <meta property="og:image" content="/assets/logo-aco.jpg">
+  <link rel="canonical" href="/conteudo/">
+  <link rel="preconnect" href="https://cdn.tailwindcss.com"><link rel="preconnect" href="https://images.unsplash.com"><link rel="preconnect" href="https://unpkg.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>tailwind.config = {theme:{extend:{colors:{steel:{black:'#0b0d10',graphite:'#171b20',dark:'#101419',yellow:'#f5c542',amber:'#d99a16',ash:'#f3f4f6'}},fontFamily:{sans:['Inter','Arial','sans-serif'],display:['Montserrat','Inter','Arial','sans-serif']}}}};</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body class="page-conteudo bg-white text-steel-black antialiased">
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-steel-black/92 backdrop-blur-xl">
+    <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <a href="/" class="flex items-center gap-3" aria-label="Aco Forte Distribuidora"><span class="logo-mark"><img src="/assets/logo-aco.jpg" alt="Logo Aco Forte Distribuidora"></span><span class="leading-tight"><strong class="block text-sm font-black uppercase tracking-[0.16em] text-white">Aco Forte</strong><small class="text-[0.68rem] uppercase tracking-[0.24em] text-steel-yellow">Distribuidora</small></span></a>
+      <nav class="hidden items-center gap-7 text-sm font-bold text-zinc-300 lg:flex" aria-label="Menu principal"><a href="/sobre/">Sobre</a><a href="/solucoes/">Solucoes</a><a href="/conteudo/">Conteudo</a><a href="/contato/">Contato</a></nav>
+      <a href="https://wa.me/5517981856044?text=Ol%C3%A1%2C%20quero%20solicitar%20um%20or%C3%A7amento%20com%20a%20A%C3%A7o%20Forte." target="_blank" rel="noopener noreferrer" class="btn btn-primary hidden lg:inline-flex"><i data-lucide="message-circle" class="h-4 w-4"></i> Solicitar orcamento</a>
+      <button id="menu-button" type="button" class="inline-flex h-11 w-11 items-center justify-center border border-white/15 text-white lg:hidden" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false"><i data-lucide="menu" class="h-5 w-5"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-steel-black px-4 py-4 lg:hidden"><div class="grid gap-3 text-sm font-bold"><a href="/sobre/" class="py-2">Sobre</a><a href="/solucoes/" class="py-2">Solucoes</a><a href="/conteudo/" class="py-2">Conteudo</a><a href="/contato/" class="py-2">Contato</a><a href="https://wa.me/5517981856044" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">Solicitar orcamento</a></div></div>
+  </header>
+  <main class="pt-20">
+    <section class="page-hero page-hero-split industrial-lines bg-steel-black">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1fr_0.95fr] lg:px-8 lg:py-24">
+        <div class="reveal max-w-4xl self-center">
+          <span class="section-kicker text-steel-yellow">Conteudo</span>
+          <h1 class="mt-4 font-display text-4xl font-black uppercase leading-tight text-white sm:text-6xl">Conteudo para compradores de aco, obras e industria.</h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-zinc-200">Guias objetivos para orientar cotacoes, categorias de materiais e processos de compra em demandas tecnicas.</p>
+          <a href="/solucoes/" class="btn btn-secondary btn-lg mt-8"><i data-lucide="grid-3x3" class="h-5 w-5"></i> Ver solucoes</a>
+        </div>
+        <div class="reveal editorial-card">
+          <img src="/images/estrutura-industrial.jpg" alt="Conteudo industrial Aco Forte" loading="eager" decoding="sync">
+          <div>
+            <span>Artigo em destaque</span>
+            <h2>Como organizar uma lista de materiais para cotacao</h2>
+            <p>Entenda quais informacoes ajudam a reduzir duvidas e acelerar o retorno comercial.</p>
+            <a href="/conteudo/dicas-para-orcamento-industrial/">Ler agora</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-surface py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="section-intro reveal">
+          <span class="section-kicker text-zinc-500">Biblioteca tecnica</span>
+          <h2>Artigos para decidir com mais clareza.</h2>
+          <p>Conteudos curtos, praticos e voltados para quem precisa comprar materiais metalicos com agilidade.</p>
+        </div>
+        <div class="content-categories reveal">
+          <span>Artigos</span>
+          <span>Guias</span>
+          <span>Mercado</span>
+          <span>Dicas</span>
+        </div>
+        <div class="content-tags reveal" aria-label="Categorias de conteudo">
+          <span>Construcao</span>
+          <span>Aco</span>
+          <span>Projetos</span>
+          <span>Orcamento</span>
+        </div>
+        <div class="js-blog-list grid gap-6 md:grid-cols-2 lg:grid-cols-3"></div>
+      </div>
+    </section>
+    <section class="blog-cta-strip">
+      <div>
+        <span class="section-kicker text-steel-yellow">Precisa cotar agora?</span>
+        <h2>Fale com o comercial depois de ler o guia.</h2>
+        <p>Envie sua lista por WhatsApp e receba orientacao sobre categorias, medidas e disponibilidade.</p>
+      </div>
+      <a href="https://wa.me/5517981856044?text=Ol%C3%A1%2C%20li%20o%20blog%20e%20quero%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Solicitar orcamento</a>
+    </section>
+  </main>
+  <footer class="border-t border-white/10 bg-steel-black py-12 text-white"><div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 text-sm sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8"><p>&copy; <span id="year"></span> Aco Forte Distribuidora.</p><a href="https://wa.me/5517981856044" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Solicitar orcamento</a></div></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
+
